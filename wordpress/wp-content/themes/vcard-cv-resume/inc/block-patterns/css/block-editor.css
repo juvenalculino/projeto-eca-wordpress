@@ -1,0 +1,71 @@
+.banner-section .wp-block-column h1,
+.banner-section .wp-block-column p,
+.banner-btn .block-editor-rich-text__editable.wp-block-button__link,
+.services-section h2,
+.services-section p,
+.services-section .services-btn .wp-block-button__link,
+.services-section .left-service-box h3,
+.services-section .left-service-box p,
+.services-section .left-service-box .wp-block-button__link,
+.services-section .right-service-box h3,
+.services-section .right-service-box p,
+.services-section .right-service-box .wp-block-button__link{
+  font-family: 'Josefin Sans', sans-serif;
+}
+.banner-section, .services-section{
+  width: auto;
+  height: auto;
+}
+/*Banner Section*/
+.banner-section .wp-block-column h1,
+.services-section h2,
+.services-section .left-service-box h3,
+.services-section .right-service-box h3{
+  font-weight: 500;
+}
+.banner-section .wp-block-column h1,
+.banner-section .wp-block-column p,
+.services-section h2,
+.services-section p{
+  margin: 0;
+}
+.banner-section img{
+  height: auto !important;
+}
+.banner-btn .block-editor-rich-text__editable.wp-block-button__link, .services-btn .block-editor-rich-text__editable.wp-block-button__link{
+  border-radius: 12px 0 12px 0 !important;
+}
+.banner-btn .block-editor-rich-text__editable.wp-block-button__link:hover{
+  background-color: #373293 !important;
+}
+/*Services Section*/
+.services-section .wp-block.wp-block-columns.block-editor-block-list__layout.wp-container-17{
+  margin-top: -5% !important;
+}
+.services-btn .block-editor-rich-text__editable.wp-block-button__link:hover{
+  background-color: #e88c09 !important;
+}
+.left-service-box, .right-service-box{
+  box-shadow: 0 0 15px 1px #ddd;
+  border-radius: 30px 0 30px 0;
+}
+.left-service-box figure, .right-service-box figure{
+  margin-bottom: 0;
+}
+.left-service-box img {
+  border-radius: 30px 0 0 0 !important;
+}
+.right-service-box img {
+  border-radius: 0 0 30px 0 !important;
+}
+.left-service-box .block-editor-rich-text__editable.wp-block-button__link, .right-service-box .block-editor-rich-text__editable.wp-block-button__link{
+  background-color: #fff !important;
+  color: #e88c09 !important;
+  padding: 0 !important;
+}
+.left-service-box .block-editor-rich-text__editable.wp-block-button__link:after, .right-service-box .block-editor-rich-text__editable.wp-block-button__link:after{
+  content: "\f30b";
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
+  margin-left: 10px;
+}

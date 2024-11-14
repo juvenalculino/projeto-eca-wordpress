@@ -1,0 +1,79 @@
+.banner-section, .services-section{
+  width: auto;
+  height: auto;
+}
+/*Banner Section*/
+.banner-btn a.wp-block-button__link, .services-btn a.wp-block-button__link{
+  border-radius: 12px 0 12px 0 !important;
+}
+.banner-btn a.wp-block-button__link:hover{
+  background-color: #373293 !important;
+}
+/*Services Section*/
+.wp-block-group.alignwide.services-section{
+  margin: 0 !important;
+}
+.services-btn a.wp-block-button__link:hover{
+  background-color: #e88c09 !important;
+}
+.left-service-box, .right-service-box{
+  box-shadow: 0 0 15px 1px #ddd;
+  border-radius: 30px 0 30px 0;
+}
+.left-service-box figure, .right-service-box figure{
+  margin-bottom: 0;
+}
+.left-service-box img {
+  border-radius: 30px 0 0 0 !important;
+}
+.right-service-box img {
+  border-radius: 0 0 30px 0 !important;
+}
+.left-service-box a.wp-block-button__link, .right-service-box a.wp-block-button__link{
+  background-color: #fff !important;
+  color: #e88c09 !important;
+  padding: 0 !important;
+}
+.left-service-box a.wp-block-button__link:after, .right-service-box a.wp-block-button__link:after{
+  content: "\f30b";
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
+  margin-left: 10px;
+}
+@media screen and (max-width:1024px)  and (min-width: 769px){
+  .services-section.is-layout-flow{
+    padding: 15px 5px !important;
+  }
+}
+@media screen and (max-width:768px)  and (min-width: 426px){
+  .services-section .wp-block-columns{
+    flex-wrap: nowrap !important;
+  }
+  .services-section .left-service-box, .services-section .right-service-box{
+    gap: 1em;
+  }
+  .services-section .left-service-box h3, .services-section .right-service-box h3{
+    margin-top: -20%;
+  }
+  .services-section.is-layout-flow{
+    padding: 0 5px !important;
+  }
+}
+@media screen and (max-width:425px){
+  .services-section h2, .services-section p, .services-section .left-service-box h3, .services-section .right-service-box h3{
+    text-align: center;
+  }
+  .services-section .wp-block-buttons{
+    justify-content: center !important;
+    margin-bottom: 15px;
+  }
+  .services-section .left-service-box{
+    margin-bottom: 25px;
+  }
+  .services-section.is-layout-flow{
+    padding: 0 5px !important;
+  }
+  .services-section .wp-block-columns{
+    gap: 0;
+  }
+}
